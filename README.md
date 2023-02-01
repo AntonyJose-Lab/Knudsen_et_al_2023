@@ -1,5 +1,6 @@
-# A single regulatory network can explain gene-specific requirements for RNA interference
-Daphne R. Knudsen<sup>1</sup>, Pravrutha Raman<sup>1</sup>, Laura De Ravin<sup>1</sup>, Farida Ettefa<sup>1</sup>, and Antony M. Jose<sup>1,*</sup>
+# Target-specific requirements for RNA interference can be explained by a single regulatory network
+
+Daphne R. Knudsen<sup>1</sup>, Pravrutha Raman<sup>1</sup>, Farida Ettefa<sup>1</sup>, Laura De Ravin<sup>1</sup>, and Antony M. Jose<sup>1,*</sup>
 
 <sup>1</sup>Department of Cell Biology and Molecular Genetics, University of Maryland, College Park, USA.
 
