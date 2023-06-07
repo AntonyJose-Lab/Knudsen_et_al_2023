@@ -4,7 +4,7 @@ Daphne R. Knudsen<sup>1</sup>, Pravrutha Raman<sup>1</sup>, Farida Ettefa<sup>1<
 
 <sup>1</sup>Department of Cell Biology and Molecular Genetics, University of Maryland, College Park, USA.
 
-*Corresponding author email:  amjose@umd.edu
+<sup>*</sup>Corresponding author email:  amjose@umd.edu
 
 This paper describes some of the results from a genetic screen, where the mutated genes were identified using whole genome sequencing. The resultant data were analyzed using the uploaded shell scripts. For each strain sequenced, the fastq sequences were trimmed using cutadapt (v. 3.5), mapped to the C. elegans genome (WBcel235/ce11) using bowtie2 (v. 2.4.2), sorted using samtools (v. 1.11), and the resulting .bam file was analyzed to call variants using snpEff (v. 5.0e). The variants classified as ‘HIGH’ or ‘MODERATE’ in the .ann.vcf file for each strain that are not shared by any two or more strains were culled as new mutations caused by mutagenesis in each strain. These new mutations in each strain were compared with those of all other strains (‘in silico complementation’) using a custom script to identify sets of strains with different mutations in the same genes. 
 
