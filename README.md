@@ -1,4 +1,4 @@
-# Target-specific requirements for RNA interference can be explained by a single regulatory network
+# Target-specific requirements for RNA interference can arise through restricted RNA amplification despite the lack of specialized pathways
 
 Daphne R. Knudsen<sup>1</sup>, Pravrutha Raman<sup>1</sup>, Farida Ettefa<sup>1</sup>, Laura De Ravin<sup>1</sup>, and Antony M. Jose<sup>1,*</sup>
 
@@ -6,7 +6,7 @@ Daphne R. Knudsen<sup>1</sup>, Pravrutha Raman<sup>1</sup>, Farida Ettefa<sup>1<
 
 <sup>*</sup>Corresponding author email:  amjose@umd.edu
 
-This paper describes some of the results from a genetic screen, where the mutated genes were identified using whole genome sequencing. The resultant data were analyzed using the uploaded shell scripts. For each strain sequenced, the fastq sequences were trimmed using cutadapt (v. 3.5), mapped to the C. elegans genome (WBcel235/ce11) using bowtie2 (v. 2.4.2), sorted using samtools (v. 1.11), and the resulting .bam file was analyzed to call variants using snpEff (v. 5.0e). The variants classified as ‘HIGH’ or ‘MODERATE’ in the .ann.vcf file for each strain that are not shared by any two or more strains were culled as new mutations caused by mutagenesis in each strain. These new mutations in each strain were compared with those of all other strains (‘in silico complementation’) using a custom script to identify sets of strains with different mutations in the same genes. 
+The work described here has been published in eLife. This paper describes some of the results from a genetic screen, where the mutated genes were identified using whole genome sequencing. The resultant data were analyzed using the uploaded shell scripts. For each strain sequenced, the fastq sequences were trimmed using cutadapt (v. 3.5), mapped to the C. elegans genome (WBcel235/ce11) using bowtie2 (v. 2.4.2), sorted using samtools (v. 1.11), and the resulting .bam file was analyzed to call variants using snpEff (v. 5.0e). The variants classified as ‘HIGH’ or ‘MODERATE’ in the .ann.vcf file for each strain that are not shared by any two or more strains were culled as new mutations caused by mutagenesis in each strain. These new mutations in each strain were compared with those of all other strains (‘in silico complementation’) using a custom script to identify sets of strains with different mutations in the same genes. 
 
 Details for each step are commented on within the scripts. Modify paths as required before use. 
 
